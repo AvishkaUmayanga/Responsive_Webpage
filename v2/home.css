@@ -10,7 +10,7 @@ body {
     grid-gap: 30px;
     align-items: center;
     padding: 10px;
-    border-bottom: 1px solid black;
+    
 }
 
 .logo {
@@ -72,7 +72,6 @@ body {
     grid-template-columns: 45% 45%;
     padding: 20px;
     grid-gap: 30px;
-    border: 1px solid black;
     margin-top: 20px;
 }
 
@@ -91,4 +90,18 @@ body {
 .header1-maintext{
     font-size: 32px;
     font-weight: bold;
+}
+
+
+/*--Items--*/
+.items{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin: 20px 30px;
+    grid-gap: 20px;
+}
+
+.item{
+    justify-self: center;
+    padding: 10px;
 }

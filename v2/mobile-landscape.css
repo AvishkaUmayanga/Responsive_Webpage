@@ -12,6 +12,7 @@
 }
 
 
+
 /*--Header1--*/
 @media (max-width: 568px) {
     .header1{
@@ -26,4 +27,23 @@
         justify-self: center;
     }
 
+}
+
+
+
+/*--Items--*/
+@media (max-width: 568px){
+    .items{
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto auto;
+        padding-top: 0;
+        margin-left: 0;
+        margin-right: 70px;
+        grid-gap: 10px;
+    }
+
+    .item{
+        justify-self: start;
+        padding-top: 0;
+    }
 }

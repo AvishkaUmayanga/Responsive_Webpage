@@ -8,3 +8,31 @@
         display: none;
     }
 }
+
+
+/*--Header1--*/
+@media (max-width: 768px) {
+    .header1{
+    display: grid;
+    grid-template-columns: 50% 45%;
+    padding: 20px;
+    grid-gap: 20px;
+    }   
+
+    .header1-img{
+        width: 362px;
+        height: 350px;
+    }
+
+    .right-side,.left-side{
+        justify-self: center;
+    }
+}
+
+
+/*--Items--*/
+@media (max-width768){
+    .items{
+    margin: 20px 0px;
+    }
+}
