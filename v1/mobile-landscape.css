@@ -1,0 +1,10 @@
+@media (min-width: 568px) {
+   
+    .links{
+        display: none;
+    }
+    
+    .navbar-right{
+        display: none;
+    }
+}

@@ -1,0 +1,32 @@
+/*--navigation bar*/
+@media (max-width: 320px) {
+   
+    .links{
+        display: none;
+    }
+    
+    .navbar-right{
+        display: none;
+    }
+}
+
+
+/*--Header1--*/
+@media (max-width: 320px) {
+    .header1{
+        grid-template-columns: 1fr;
+    }  
+    .header1-img{
+        width: 290px;
+        height: 220px;
+    }
+
+    .right-side,.left-side{
+        justify-self: center;
+    }
+
+    .header1-maintext{
+     font-size: 28px;
+    }
+
+}

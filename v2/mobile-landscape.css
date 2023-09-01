@@ -1,0 +1,29 @@
+
+/*--navigation bar*/
+@media (max-width: 568px) {
+   
+    .links{
+        display: none;
+    }
+    
+    .navbar-right{
+        display: none;
+    }
+}
+
+
+/*--Header1--*/
+@media (max-width: 568px) {
+    .header1{
+        grid-template-columns: 1fr;
+    }  
+    .header1-img{
+        width: 508px;
+        height: 278px;
+    }
+
+    .right-side,.left-side{
+        justify-self: center;
+    }
+
+}

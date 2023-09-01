@@ -1,0 +1,10 @@
+@media (max-width: 320px) {
+   
+    .links{
+        display: none;
+    }
+    
+    .navbar-right{
+        display: none;
+    }
+}
