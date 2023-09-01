@@ -22,8 +22,17 @@ margin: 0}
  
 }
 
+
 .navbar-right{
 	float: right;
+}
+
+.navbar-right button{
+	height: 20px;
+	margin-top: 15px;
+	text-align: center;
+	background-color: lightblue;
+	border-radius: 5px;
 }
 
 @media screen and (max-width:768px) {
@@ -65,14 +74,18 @@ margin: 0}
 
 
 
+
+
+
 /* Header 1*/
 
 .header1-container{
-	position: absolute;
-	width: 70%;
-	left: 15%;
+	position: relative;
+	width: 80%;
+	left: 8%;
 	top: 20%;
 	padding: 30px;
+	margin-top: 20px;
 }
 .header1-img{
 	float: left;
@@ -107,7 +120,7 @@ margin: 0}
 		width: 90%;
 		left: 5%;
 		top: 20%;
-		padding: 30px;
+		padding: 15px;
 
 }
 	.header1-img{
