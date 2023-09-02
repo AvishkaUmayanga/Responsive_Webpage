@@ -15,6 +15,7 @@
 @media (max-width: 320px) {
     .header1{
         grid-template-columns: 1fr;
+        padding: 10px;
     }  
     .header1-img{
         width: 290px;

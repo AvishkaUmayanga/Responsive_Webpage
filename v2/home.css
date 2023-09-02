@@ -93,6 +93,7 @@ body {
 }
 
 
+
 /*--Items--*/
 .items{
     display: grid;
@@ -104,4 +105,37 @@ body {
 .item{
     justify-self: center;
     padding: 10px;
+}
+
+
+
+/*--Two line header--*/
+.header2{
+    display: grid;
+    grid-template-columns: 1fr 650px;
+    margin: 20px 0px;
+    align-items: center;
+}
+
+.header2-left{
+    text-align: left;
+    justify-self: flex-start;
+    padding-left: 100px;
+
+}
+.header1-maintext{
+    font-size: 28px;
+    font-weight: bold;
+}
+.header2 a{
+    color: blue;
+    text-decoration: none;
+}
+
+.header2-rigth{
+    justify-self: end;
+}
+.header2-img{
+    width: 469px;
+    height: 650px;
 }
