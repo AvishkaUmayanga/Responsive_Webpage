@@ -16,7 +16,8 @@
     display: grid;
     grid-template-columns: 50% 45%;
     padding: 20px;
-    grid-gap: 20px;
+    grid-gap: 30px;
+    margin-left: 30px;
     }   
 
     .header1-img{
@@ -31,8 +32,31 @@
 
 
 /*--Items--*/
-@media (max-width768){
+@media (max-width: 768px){
     .items{
-    margin: 20px 0px;
+        margin: 20px 0px;
+    }
+}
+
+
+
+/*--Two line header--*/
+@media (max-width:768px){
+    .header2{
+        grid-template-columns: 1fr 346px;
+        align-items: flex-start;
+        margin-top: 50px;
+    }
+
+    .header2-left{
+        padding: 0px 30px;
+    }
+
+    .header1-maintext{
+        font-size: 25px;
+    }
+    .header2-img{
+        width: 346px;
+        height: 436px;
     }
 }

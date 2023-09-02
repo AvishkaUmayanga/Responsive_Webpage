@@ -17,7 +17,7 @@ body {
     width: 30px;
 }
 
-.links {
+.links{
     display: flex;
     list-style: none;
     padding: 0;
@@ -28,7 +28,7 @@ body {
     margin-right: 20px;
 }
 
-.links a {
+.links a{
     text-decoration: none;
     color: black;
 }
@@ -87,7 +87,7 @@ body {
 .right-side{
     justify-self: flex-start;
 }
-.header1-maintext{
+.header1-maintext {
     font-size: 32px;
     font-weight: bold;
 }
@@ -99,13 +99,14 @@ body {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     margin: 20px 30px;
-    grid-gap: 20px;
+    grid-gap: 10px;
 }
 
-.item{
+.item {
     justify-self: center;
     padding: 10px;
 }
+
 
 
 
@@ -123,7 +124,7 @@ body {
     padding-left: 100px;
 
 }
-.header1-maintext{
+.header2-maintext{
     font-size: 28px;
     font-weight: bold;
 }

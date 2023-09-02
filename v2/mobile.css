@@ -16,6 +16,7 @@
     .header1{
         grid-template-columns: 1fr;
         padding: 10px;
+        margin-left: 5px;
     }  
     .header1-img{
         width: 290px;
@@ -27,7 +28,7 @@
     }
 
     .header1-maintext{
-     font-size: 28px;
+     font-size: 25px;
     }
 
 }
@@ -38,5 +39,22 @@
     .items{
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(3, auto);
+        margin: 20px 20px;
+    }
+}
+
+
+
+/*--Two line header--*/
+@media (max-width: 320px){
+    .header2{
+        grid-template-columns: 1fr;
+    }
+    .header2-img{
+        width: 320px;
+        height: 300px;
+    }
+    .header2-maintext{
+     font-size: 25px;
     }
 }
