@@ -58,3 +58,31 @@
      font-size: 25px;
     }
 }
+
+
+/*-Heading 1--*/
+@media (max-width: 320px){
+    .heading1{
+        grid-template-columns: 1fr;
+    }
+    .heading1-left{
+        width: 290px;
+        text-align: left;
+        justify-self: flex-start;
+        margin-left: 20px;
+    }
+    .heading1-right{
+        justify-self: flex-start;
+        margin-left: 20px;
+    }
+    .heading1-right button {
+        display: inline; 
+    }
+    .heading1-right input {
+        width: 280px;
+    }
+    .heading1-maintext{
+        font-size: 20px;
+
+    }
+}

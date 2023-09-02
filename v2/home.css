@@ -140,3 +140,43 @@ body {
     width: 469px;
     height: 650px;
 }
+
+
+
+/*-Heading 1--*/
+.heading1{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    margin-top: 40px;
+}
+.heading1-left{
+    text-align: left;
+    justify-self: flex-start;
+    margin-left: 100px;
+
+}
+.heading1-maintext{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.heading1-right{
+    justify-self: flex-end;
+    margin-right: 100px;
+}
+
+.heading1-right input{
+    width: 362px;
+}
+.heading1-right button {
+    display: block; 
+    margin-top: 10px; 
+    margin-left: auto;
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    padding: 5px 10px;
+}

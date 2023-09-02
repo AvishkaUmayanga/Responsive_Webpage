@@ -60,3 +60,28 @@
         height: 436px;
     }
 }
+
+
+
+/*-Heading 1--*/
+@media (max-width: 768px){
+    .heading1{
+        grid-template-columns: 1fr;
+    }
+    .heading1-left{
+        text-align: left;
+        justify-self: flex-start;
+        margin-left: 30px;
+        
+    }
+    .heading1-right{
+        justify-self: flex-start;
+        margin-left: 30px;
+    }
+    .heading1-right input{
+        width: 300px;
+    }
+    .heading1-right button {
+        display: inline; 
+    }
+}
