@@ -1,4 +1,4 @@
-@media (min-width: 768px) {
+@media (max-width: 768px) {
    
     .links{
         display: none;
@@ -6,5 +6,15 @@
     
     .navbar-right{
         display: none;
+    }
+}
+
+/*--Header 1-- */
+@media (max-width: 768px){
+    .header1{
+        margin: 50px 20px;
+    }
+    .right-side{
+        padding: 0px 10px;
     }
 }

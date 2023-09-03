@@ -4,7 +4,7 @@ body {
 
 
 /*---navigation bar---*/
-.navbar {
+.navbar{
     display: grid;
     grid-template-columns: auto 1fr auto;
     grid-gap: 30px;
@@ -49,7 +49,7 @@ body {
     margin-right: 20px;
 }
 
-.navbar-right a {
+.navbar-right a{
     text-decoration: none;
     color: black;
 }
