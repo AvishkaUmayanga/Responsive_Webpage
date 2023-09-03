@@ -78,3 +78,84 @@
     font-size: 32px;
     font-weight: bold;
 }
+
+
+
+/*--Items-- */
+.items{
+    margin: 100px 0px;
+    margin-left: 100px;
+    overflow: hidden;
+}
+.item{
+    width: 20%;
+    box-sizing: border-box;
+    float: left;
+}
+
+
+
+
+/*--Two line header--*/
+.header2{
+    margin: 50px 0px;
+    margin-left: 100px;
+    overflow: hidden; 
+}
+.header2-left{
+    width: 50%;
+    float: left;
+    padding-top: 150px;
+    padding-right: 50px;
+    box-sizing: border-box;
+}
+.header2-maintext{
+    font-size: 32px;
+    font-weight: bold;
+}
+.header2-link{
+    text-decoration: none;
+}
+.header2-right{
+    width: 50%;
+    float: right;
+    box-sizing: border-box;
+}
+.header2-img{
+    width: 496px;
+    height: 650px;
+}
+
+
+
+
+/*--Two line header--*/
+.heading1{
+    margin: 50px 100px;
+    overflow: hidden;
+}
+.heading1-left{
+    float: left;
+    width: 50%;
+}
+.heading1-maintext{
+    font-size: 22px;
+    font-weight: bold;
+}
+.heading1-right{
+    float: right;
+    padding-right: 90px;
+}
+.heading1-right input{
+    width: 95%;
+    padding: 5px;
+}
+.heading1-right button{
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    float: right;
+    margin-top: 5px;
+}

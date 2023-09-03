@@ -35,3 +35,47 @@
         padding-right: 100px;
     }
 }
+
+
+
+
+/*--Items-- */
+@media (max-width: 568px){
+    .items{
+        margin: 50px 0px;
+        margin-left: 30px;
+
+    }
+    .item{
+        width: 30%;
+        padding-bottom: 20px;
+    }
+}
+
+
+
+/*--Two line header--*/
+@media (max-width: 568px){
+   .header2{
+        margin-left: 0px; 
+    }
+
+    .header2-right{
+        float: none;
+        width: 100%;
+    }
+
+    .header2-left{
+        width: 100%;
+        float: none;
+        padding-left: 30px;
+        margin-bottom: 40px;
+    }
+    
+    .header2-img{
+        width: 568px;
+        height: 532px;
+    }
+}
+
+

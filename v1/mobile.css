@@ -38,3 +38,46 @@
         font-size: 25px;
     }
 }
+
+
+
+
+/*--Items-- */
+@media (max-width: 320px){
+    .items{
+        margin: 50px 0px;
+        margin-left: 30px;
+    }
+    .item{
+        width: 50%;
+        padding-bottom: 20px;
+    }
+}
+
+
+
+/*--Two line header--*/
+@media (max-width: 320px){
+   .header2{
+        margin-left: 0px; 
+    }
+
+    .header2-right{
+        float: none;
+        width: 100%;
+        
+    }
+
+    .header2-left{
+        width: 100%;
+        float: none;
+        padding-left: 30px;
+        clear: both;
+    }
+    
+    .header2-img{
+        width: 320px;
+        height: 300px;
+    }
+    
+}

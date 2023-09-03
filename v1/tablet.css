@@ -9,6 +9,9 @@
     }
 }
 
+
+
+
 /*--Header 1-- */
 @media (max-width: 768px){
     .header1{
@@ -16,5 +19,31 @@
     }
     .right-side{
         padding: 0px 10px;
+    }
+}
+
+
+
+/*--Items-- */
+@media (max-width: 768px){
+    .items{
+        margin-left: 20px;
+    }
+}
+
+
+
+/*--Two line header--*/
+@media (max-width: 768px){
+   .header2{
+        margin-left: 20px; 
+    }
+    .header2-left{
+        padding-top: 0px;
+    }
+
+    .header2-img{
+        width: 346px;
+        height: 436px;
     }
 }
