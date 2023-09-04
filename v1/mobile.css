@@ -81,3 +81,30 @@
     }
     
 }
+
+
+
+
+/*--heading1--*/
+@media (max-width: 768px){
+    .heading1{
+        margin: 50px 30px;
+    }
+    .heading1-left{
+        width: 100%;
+    }
+    .heading1-right{
+        float: left;
+        width: 100%;
+        padding-right: 0px;
+        padding-top: 20px;
+    }
+    .heading1-right input{
+        width: 240px;
+        
+    }
+    .heading1-right button{
+        float: none;
+    }
+
+}

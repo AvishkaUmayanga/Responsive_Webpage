@@ -129,7 +129,7 @@
 
 
 
-/*--Two line header--*/
+/*--heading 1--*/
 .heading1{
     margin: 50px 100px;
     overflow: hidden;
@@ -158,4 +158,5 @@
     padding: 5px 10px;
     float: right;
     margin-top: 5px;
+    cursor: pointer;
 }

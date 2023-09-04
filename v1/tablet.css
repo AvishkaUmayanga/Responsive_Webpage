@@ -47,3 +47,30 @@
         height: 436px;
     }
 }
+
+
+
+
+/*--heading1--*/
+@media (max-width: 768px){
+    .heading1{
+        margin: 50px 20px;
+    }
+    .heading1-left{
+        width: 100%;
+    }
+    .heading1-right{
+        float: left;
+        width: 100%;
+        padding-right: 0px;
+        padding-top: 20px;
+    }
+    .heading1-right input{
+        width: 40%;
+        
+    }
+    .heading1-right button{
+        float: none;
+    }
+
+}
