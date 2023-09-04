@@ -74,3 +74,16 @@
     }
 
 }
+
+
+
+/*--Items-- */
+@media (max-width: 768px){
+    .items{
+        margin: 50px 20px;
+    }
+    .item{
+        padding-right: 0px;
+    }
+}
+
