@@ -1,5 +1,6 @@
 *{
     margin: 0;
+    font-family: 'Lato', sans-serif;
 }
 
 .navbar{
@@ -45,6 +46,7 @@
     border-radius: 5px;
     cursor: pointer;
 }
+
 
 
 
