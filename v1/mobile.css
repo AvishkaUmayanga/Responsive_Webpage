@@ -74,6 +74,9 @@
         padding-left: 30px;
         clear: both;
     }
+    .header2-maintext{
+        font-size: 25px;
+    }
     
     .header2-img{
         width: 320px;

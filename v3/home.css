@@ -1,6 +1,6 @@
 *{
 	margin: 0;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Inter', sans-serif;
 }
 
 
@@ -10,6 +10,7 @@
 	padding: 10px 20px;
 	align-items: center;
 	height: 50px;
+	font-family: 'DM Sans', sans-serif;
 }
 .logo{
 	width: 30px;
@@ -54,9 +55,7 @@
 .bar{
 	display: none;
 }
-.menu-toggle{
-	display: none;
-}
+
 
 
 
@@ -80,6 +79,7 @@
 .header1-maintext{
 	font-size: 30px;
 	font-weight: bold;
+	font-family: 'DM Sans', sans-serif;
 }
 
 
@@ -92,7 +92,7 @@
 	flex-wrap: wrap;
 }
 .item{
-	padding-right: 120px;
+	padding-right: 110px;
 }
 
 
@@ -111,6 +111,7 @@
 .header2-maintext{
 	font-size: 32px;
 	font-weight: bold;
+	font-family: 'DM Sans', sans-serif;
 }
 .header2-left a{
 	text-decoration: none;
@@ -139,6 +140,7 @@
 .heading1-maintext{
     font-size: 22px;
     font-weight: bold;
+    font-family: 'DM Sans', sans-serif;
 }
 
 .heading1-right{
